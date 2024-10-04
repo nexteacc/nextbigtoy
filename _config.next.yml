@@ -1,0 +1,318 @@
+# ===============================================================
+# It's recommended to use Alternate Theme Config to configure NexT
+# Modifying this file may result in merge conflict
+# See: https://theme-next.js.org/docs/getting-started/configuration
+# ===============================================================
+
+# ---------------------------------------------------------------
+# Theme Core Configuration Settings
+# See: https://theme-next.js.org/docs/theme-settings/
+# ---------------------------------------------------------------
+
+# Allow to cache content generation.
+cache:
+  enable: true
+
+# Remove unnecessary files after hexo generate.
+minify: false
+
+# Define custom file paths.
+# Create your custom files in site directory `source/_data` and uncomment needed files below.
+custom_file_path:
+  #head: source/_data/head.njk
+  #header: source/_data/header.njk
+  #sidebar: source/_data/sidebar.njk
+  #postMeta: source/_data/post-meta.njk
+  #postBodyStart: source/_data/post-body-start.njk
+  #postBodyEnd: source/_data/post-body-end.njk
+  #footer: source/_data/footer.njk
+  #bodyEnd: source/_data/body-end.njk
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
+  #style: source/_data/styles.styl
+
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Schemes
+scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+#scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+favicon:
+  #small: /images/favicon-16x16-next.png
+  #medium: /images/favicon-32x32-next.png
+  #apple_touch_icon: /images/apple-touch-icon-next.png
+  #safari_pinned_tab: /images/logo.svg
+  #android_manifest: /manifest.json
+
+# Custom Logo (Warning: Do not support scheme Mist)
+custom_logo: #/uploads/custom-logo.png
+
+# Creative Commons 4.0 International License.
+# See: https://creativecommons.org/about/cclicenses/
+creative_commons:
+  # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
+  license: by-nc-sa
+  # Available values: big | small
+  size: small
+  sidebar: false
+  post: false
+  # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
+  # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
+  language: deed.zh
+
+# Open graph settings
+# See: https://hexo.io/docs/helpers#open-graph
+open_graph:
+  enable: true
+  options:
+    #twitter_card: <twitter:card>
+    #twitter_id: <twitter:creator>
+    #twitter_site: <twitter:site>
+    #twitter_image: <twitter:image>
+    #google_plus: <g+:profile_link>
+    #fb_admins: <fb:admin_id>
+    #fb_app_id: <fb:app_id>
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-sensitive.
+# Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
+# External url should start with http:// or https://
+menu:
+  home: / || fa fa-home
+  #about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
+  #archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+# Enable / Disable menu icons / item badges.
+menu_settings:
+  icons: true
+  badges: true
+
+
+
+# ---------------------------------------------------------------
+# Footer Settings
+# See: https://theme-next.js.org/docs/theme-settings/footer
+# ---------------------------------------------------------------
+
+# Show multilingual switcher in footer.
+language_switcher: false
+
+footer:
+  # Specify the year when the site was setup. If not defined, current year will be used.
+  #since: 2024
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    name: 
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  # Set to `false` to disable the copyright statement.
+  copyright: 复盘，复利
+
+  # Powered by Hexo & NexT
+  powered: true
+
+
+
+
+# ---------------------------------------------------------------
+# Post Settings
+# See: https://theme-next.js.org/docs/theme-settings/posts
+# ---------------------------------------------------------------
+
+# Use `description` in front-matter to specify post excerpt.
+excerpt_description: true
+
+# Read more button
+# If true, the read more button will be displayed in excerpt section.
+read_more_btn: true
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# Post wordcount display settings
+# Dependencies: https://github.com/next-theme/hexo-word-counter
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: false
+
+
+# Subscribe through Telegram Channel, Twitter, etc.
+# Usage: `Key: permalink || icon` (Font Awesome)
+follow_me:
+  #Twitter: https://twitter.com/username || fab fa-twitter
+  #Telegram: https://t.me/channel_name || fab fa-telegram
+  #WeChat: /images/wechat_channel.png || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss
+
+# Related popular posts
+# Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
+related_posts:
+  enable: false
+  icon: fa fa-signs-post
+
+# Post edit
+# Easily browse and edit blog source code online.
+post_edit:
+  enable: false
+  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
+  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+
+# Show previous post and next post in post footer if exists
+# Available values: left | right | false
+post_navigation: left
+
+
+
+
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+# Find fonts on Google Fonts (https://fonts.google.com)
+# All fonts set here will have the following styles:
+#   light | light italic | normal | normal italic | bold | bold italic
+# Be aware that setting too much fonts will cause site running slowly
+# ---------------------------------------------------------------
+# Web Safe fonts are recommended for `global` (and `title`):
+# Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
+# ---------------------------------------------------------------
+
+font:
+  enable: true
+
+  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
+  host:
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Noto Serif SC
+    size: 0.7em
+
+  # Font settings for site title (.site-title).
+  title:
+    external: true
+    family:
+    size:
+
+  # Font settings for headlines (<h1> to <h6>).
+  headings:
+    external: true
+    family:
+    size:
+
+  # Font settings for posts (.post-body).
+  posts:
+    external: true
+    family:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family:
+
+
+
+
+
+# ---------------------------------------------------------------
+# Tags Settings
+# See: https://theme-next.js.org/docs/tag-plugins/
+# ---------------------------------------------------------------
+
+# Note tag (bootstrap callout)
+note:
+  # Note tag style values:
+  #  - simple    bootstrap callout old alert style. Default.
+  #  - modern    bootstrap callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# Tabs tag
+tabs:
+  # Make the nav bar of tabs with long content stick to the top.
+  sticky: false
+  transition:
+    tabs: false
+    labels: true
+
+
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# See: https://theme-next.js.org/docs/third-party-services/
+# More plugins: https://github.com/next-theme/awesome-next
+# ---------------------------------------------------------------
+
+# ---------------------------------------------------------------
+# Math Formulas Render Support
+# See: https://theme-next.js.org/docs/third-party-services/math-equations
+# Warning: Please install / uninstall the relevant renderer according to the documentation.
+# Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax
+# ---------------------------------------------------------------
+
+math:
+  # Default (false) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in front-matter.
+  # If you set it to true, it will load mathjax / katex script EVERY PAGE.
+  every_page: false
+
+  mathjax:
+    enable: false
+    # Available values: none | ams | all
+    tags: none
+
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+
