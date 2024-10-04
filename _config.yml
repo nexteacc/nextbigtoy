@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Nextbigtoy
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Nextbigtoy
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://nexteacc.github.io
-root:  /nextbigtoy/
+url: https://nextbigtoy.vercel.app/
+root:  /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
