@@ -98,20 +98,8 @@ open_graph:
 # Menu Settings
 menu:
   home: / || fa fa-home
+  categories: /categories/ || fa fa-th
 
-# Sidebar Settings
-sidebar:
-  position: left
-  display: post    # 改为 post，在文章页面显示
-  width_expanded: 320
-  padding: 18
-  #about: /about/ || fa fa-user
-  tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
-  #archives: /archives/ || fa fa-archive
-  #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
-  #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -140,7 +128,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: remove
+  display: post
 
   # Sidebar padding in pixels.
   padding: 18
