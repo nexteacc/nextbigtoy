@@ -95,8 +95,17 @@ open_graph:
 # Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-sensitive.
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
+# Menu Settings
 menu:
   home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+
+# Sidebar Settings
+sidebar:
+  position: left
+  display: post    # 改为 post，在文章页面显示
+  width_expanded: 320
+  padding: 18
   #about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
@@ -212,11 +221,17 @@ tag_icon: false
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
+# 关闭社交链接
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.png || fab fa-weixin
-  RSS: /atom.xml || fa fa-rss
+#Twitter: https://twitter.com/username || fab fa-twitter
+#RSS: /atom.xml || fa fa-rss
+
+# 关闭创作共享许可
+creative_commons:
+# 关闭文章字数统计
+symbols_count_time:
+  separated_meta: false
+  item_text_total: false
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts

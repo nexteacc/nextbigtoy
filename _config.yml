@@ -4,9 +4,9 @@
 
 # Site
 title: NextBigToy
-subtitle: ''
-description: ''
-keywords:
+subtitle: '探索'
+description: '花园'
+keywords: AI,科技，思维，天外天
 author: NextBigToy
 language: zh-CN
 timezone: ''
@@ -74,7 +74,7 @@ stylus:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: 'index'
   per_page: 10
   order_by: -date
 
