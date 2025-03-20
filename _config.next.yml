@@ -43,7 +43,7 @@ scheme: Muse
 #scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -98,7 +98,6 @@ open_graph:
 # Menu Settings
 menu:
   home: / || fa fa-home
-  categories: /categories/ || fa fa-th
 
 # Sidebar Settings
 sidebar:
@@ -227,11 +226,11 @@ follow_me:
 #RSS: /atom.xml || fa fa-rss
 
 # 关闭创作共享许可
-creative_commons:
+# creative_commons:
 # 关闭文章字数统计
-symbols_count_time:
-  separated_meta: false
-  item_text_total: false
+# symbols_count_time:
+#  separated_meta: false
+#  item_text_total: false
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
