@@ -216,7 +216,8 @@ tag_icon: false
 # Usage: `Key: permalink || icon` (Font Awesome)
 # 关闭社交链接
 follow_me:
-#Twitter: https://twitter.com/username || fab fa-twitter
+Twitter: https://twitter.com/nexteacc || fab fa-twitter
+GitHub: https://github.com/nexteacc || fab fa-github
 #RSS: /atom.xml || fa fa-rss
 
 # 关闭创作共享许可
